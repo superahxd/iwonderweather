@@ -60,7 +60,7 @@ def index_post():
             else:
                 err_msg = 'City does not exist in the world!'
         else:
-            err_msg = 'City already exists!'
+            err_msg = 'City already exists!!'
             
     if err_msg:
         flash(err_msg, 'error')
